@@ -31,10 +31,10 @@ class ExperienceSection extends HTMLElement {
                         </ul>
                         <div class="skills-btn-panel">
                         Skills:
-                        <button>React</button>
-                        <button>Laravel PHP </button>
-                        <button>SQL</button>
-                        <button>Agile Development</button>
+                            <button>React</button>
+                            <button>Laravel PHP </button>
+                            <button>SQL</button>
+                            <button>Agile Development</button>
                         </div>
 
                     </p>
@@ -55,7 +55,17 @@ class ExperienceSection extends HTMLElement {
                             <li> Supported regression testing for a major release by identifying and assisting resolution of failed test cases. </li>
                         </ul>
                     </p>
-                </td>
+                    <div class="skills-btn-panel">
+                        Skills:
+                        <button>Java</button>
+                        <button>JavaScript </button>
+                        <button>Jira</button>
+                        <button>Confluence</button>
+                        <button>Linux</button>
+                        <button>Test Case Automation</button>
+                        <button>Agile Development</button>
+                    </div>
+            </td>
             </tr>
             <tr>
                 <td>
@@ -67,6 +77,15 @@ class ExperienceSection extends HTMLElement {
                     <p>
                     Designed a data analysis tool for extrapolating yearly, quarterly, and monthly support data. Led a detail-oriented overhaul of outdated documentation. Managed documentation changes and Jira tickets in User Acceptance Testing of new product versions.
                     </p>
+                    <div class="skills-btn-panel">
+                        Skills:
+                        <button>Confluence</button>
+                        <button>Jira</button>
+                        <button>Google Sheets Formulas</button>
+                        <button>Jira Query Language</button>
+                        <button>User Acceptance Testing</button>
+                        <button>Agile Development</button>
+                    </div>
                 
                 </td>
             </tr>

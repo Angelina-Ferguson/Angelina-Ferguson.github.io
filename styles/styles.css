@@ -5,9 +5,6 @@ nav-bar{
 home-page table td:first-child {
     column-span: 2;
 }
-nav-bar div:nth-child(2) {
-    padding-top: 5%;
-}
 
 nav-bar table {
     padding: 0;
@@ -15,30 +12,20 @@ nav-bar table {
     height:auto;
 }
 
-.btn-div {
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-}
-
-.btn-div .social-btn {
-    padding: 0px !important;
-    margin: 0px !important;
-    border-radius: 10px;
-    border: none;
-}
-
-#resume-btn {
-    padding: 6px;
+nav-bar button {
+    position: relative;
+    z-index: 1; /* Forces the button above any row hover highlights */
+    padding: 5px;
     border-radius: 5px;
     border: none;
     color: rgb(40, 70, 57);
 }
 
-.btn-div .social-btn:hover svg {
-    fill:aliceblue;
-    stroke: #489E80;
+
+nav-bar a {
+  position: relative;
+  z-index: 1; /* Forces the button above any row hover highlights */
+  color: white;
 }
 
 
@@ -47,13 +34,18 @@ button {
     font-family: "Capriola", system-ui;
     font-weight: 100;
     font-style: normal;
+    color:rgb(40, 70, 57);
 }
 
 .skills-btn-panel button{
     border-radius: 50px;
     background-color: #F3D89C;
+    color:rgb(40, 70, 57);
 }
 
+.skills-btn-panel button:hover{
+    background-color: goldenrod;
+}
 
 table {
     border: 2px dashed white;
@@ -61,6 +53,15 @@ table {
 
     border-radius: 50px;
     height: 40vh;
+}
+
+nav-bar button:hover{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+nav-bar a:hover{
+    color: darkgoldenrod;
 }
 
 home-page button {
@@ -119,24 +120,28 @@ about-section table tr td {
     padding: 13px; 
 }
 
+about-section table,
 experience-section table,
 projects-section table { 
     border: none;
     border-collapse: collapse;
 }
 
+about-section tr,
 experience-section tr,
 projects-section tr {
     border-bottom: 2px solid #489E80 !important;
     
 }
 
+about-section tr:nth-last-child(1),
 experience-section tr:nth-last-child(1),
 projects-section tr:nth-last-child(1) {
     border-bottom: none !important;
     
 }
 
+about-section td,
 experience-section td,
 projects-section td {
     padding: 15px;
@@ -158,13 +163,12 @@ h5 {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   font-size: small;
-  padding-bottom: 10px;
-  padding-bottom: 10px;
+  padding-top: 15%;
+  padding-bottom: 5px;
   background-color: rgb(40, 70, 57);
 }
 
