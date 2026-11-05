@@ -12,13 +12,15 @@ nav-bar table {
     height:auto;
 }
 
-nav-bar button {
+#resume-btn {
     position: relative;
     z-index: 1; /* Forces the button above any row hover highlights */
     padding: 5px;
     border-radius: 5px;
     border: none;
     color: rgb(40, 70, 57);
+    background-color: aliceblue;
+    text-decoration: none;
 }
 
 
@@ -39,12 +41,13 @@ button {
 
 .skills-btn-panel button{
     border-radius: 50px;
-    background-color: #F3D89C;
+    background-color: #f5c662;
     color:rgb(40, 70, 57);
+    padding: 5;
 }
 
 .skills-btn-panel button:hover{
-    background-color: goldenrod;
+    background-color: #f5c662;
 }
 
 table {
@@ -55,13 +58,12 @@ table {
     height: 40vh;
 }
 
-nav-bar button:hover{
-    background-color: darkgoldenrod;
-    color: aliceblue;
+#resume-btn:hover{
+    background-color: #f5c662;
 }
 
 nav-bar a:hover{
-    color: darkgoldenrod;
+    color: #f5c662;
 }
 
 home-page button {
@@ -111,9 +113,20 @@ about-section table {
     height: 30vh;
     border: none;
 }
-about-section table tr td {
+about-section table tr td{
     padding-top: 0;
     line-height: 2; 
+}
+
+about-section table tr td div{
+    padding-bottom: 10;
+}
+
+about-section table tr td:nth-last-child(2),
+about-section table tr td:nth-last-child(1){
+    padding-top: 20;
+    line-height: 2; 
+    padding-bottom: 5;
 }
 
 #section-container {
@@ -154,7 +167,7 @@ projects-section button {
 }
 
 h3 {
-    color: #F3D89C;
+    color: #F3D89C; 
 }
 
 h5 {

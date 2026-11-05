@@ -16,7 +16,7 @@ class ProjectsSection extends HTMLElement {
                 <h3>Indigo</h3>
                 <h4>Senior Project, University of North Dakota</h4>
                 <h5>August 2025 - May 2026</h5>
-                <button> View on Gitub </button>
+                <a id="resume-btn" href="https://github.com/OptionsIRCIL/indigo-frontend" target="_blank" rel="noopener noreferrer"> View on Gitub </a>
                 </td>
                 <td>
                     <p>
