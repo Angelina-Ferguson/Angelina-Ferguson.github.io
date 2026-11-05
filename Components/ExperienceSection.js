@@ -30,7 +30,7 @@ class ExperienceSection extends HTMLElement {
                             <li> Provided assistance and solutions for customers resolving software issues, installations, and IT support. </li>
                         </ul>
                         <div class="skills-btn-panel">
-                        Skills:
+                        Skills: <br/>
                             <button>React</button>
                             <button>Laravel PHP </button>
                             <button>SQL</button>
@@ -56,7 +56,7 @@ class ExperienceSection extends HTMLElement {
                         </ul>
                     </p>
                     <div class="skills-btn-panel">
-                        Skills:
+                        Skills: <br/>
                         <button>Java</button>
                         <button>JavaScript </button>
                         <button>Jira</button>
@@ -78,7 +78,7 @@ class ExperienceSection extends HTMLElement {
                     Designed a data analysis tool for extrapolating yearly, quarterly, and monthly support data. Led a detail-oriented overhaul of outdated documentation. Managed documentation changes and Jira tickets in User Acceptance Testing of new product versions.
                     </p>
                     <div class="skills-btn-panel">
-                        Skills:
+                        Skills: <br/>
                         <button>Confluence</button>
                         <button>Jira</button>
                         <button>Google Sheets Formulas</button>

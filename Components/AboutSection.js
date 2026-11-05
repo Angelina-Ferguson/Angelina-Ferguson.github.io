@@ -38,6 +38,21 @@ class AboutSection extends HTMLElement {
                 <h4>Bachelor of Science in Computer Science, Minor in Mathematics  </h4>
                 <h4>University of North Dakota, GPA 3.79 / 4.0 </h4> 
                 <h5>January 2022 - May 2026</h5>
+                    <div class="skills-btn-panel">
+                        Skills: <br/>
+                        <button>HTML</button>
+                        <button>JavaScript</button>
+                        <button>CSS</button>
+                        <button>C#</button>
+                        <button>Java</button>
+                        <button>Python</button>
+                        <button>C</button>
+                        <button>C++</button>
+                        <button>SQL</button>
+                        <button>Angular</button>
+                        <button>Material UI</button>
+                        <button>TypeScript</button>
+                    </div>
                 </td>
             </tr>
         </table>

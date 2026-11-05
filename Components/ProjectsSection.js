@@ -27,7 +27,7 @@ class ProjectsSection extends HTMLElement {
                         <li>Maintained accordance with Web Content Accessibility Guidelines and HIPAA, through testing procedures and development practices.</li>
                     </ul>
                     <div class="skills-btn-panel">
-                        Skills:
+                        Skills: <br/>
                         <button>Angular</button>
                         <button>Material UI</button>
                         <button>TypeScript</button>
