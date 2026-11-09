@@ -20,13 +20,18 @@ class AboutSection extends HTMLElement {
             <tr>
                 <td colspan="2">
                 <div>
-                    Hello, I'm Angelina Ferguson and I am a Full-stack developer skilled in maintenance and improvement of scalable applications, construction and execution of test plans, and resolving IT issues.
+                    Hello, I'm Angelina Ferguson. I am a Full-stack developer skilled in the maintenance and improvement of scalable applications.
                     </div>
                     <div>
                     <br>
-                    My passion for computer science began after creating web pages with html, javascript, php, and sql for 
-                    a Intro to Web Development course I took in college. I view Full-Stack development as a way to solve-customer needs
-                    while also fulfilling my passion for creativity and problem-solving.
+                    My passion for computer science began in college, creating web pages with HTML and JavaScript for an introductory computer
+                    science course. This allowed me to creatively express myself while also engaging my love of problem solving.
+                    <br><br>
+                    Through learning Full-Stack development, I found fullfillment in implementig complex systems that solved unique customer problems, seeing customer productivity improve
+                    and frustrations decrease.
+                    <br><br>
+                    I continue to be inspired by the challenges I face and how I can provide a solution to them in a way that fulfills client needs.
+
                 </div>
                 </td>
             </tr>
@@ -42,6 +47,7 @@ class AboutSection extends HTMLElement {
                         Skills: <br/>
                         <button>HTML</button>
                         <button>JavaScript</button>
+                        <button>PHP</button>
                         <button>CSS</button>
                         <button>C#</button>
                         <button>Java</button>
