@@ -27,7 +27,7 @@ class AboutSection extends HTMLElement {
                     My passion for computer science began in college, creating web pages with HTML and JavaScript for an introductory computer
                     science course. This allowed me to creatively express myself while also engaging my love of problem solving.
                     <br><br>
-                    Through learning full-stack development, I found fullfillment in implementig complex systems that solved unique customer problems, seeing customer productivity improve
+                    Through learning full-stack development, I found fullfillment in implementing complex systems that solved unique customer problems, seeing customer productivity improve
                     and frustrations decrease.
                     <br><br>
                     I continue to be inspired by the challenges I face and how I can provide a solution to them in a way that fulfills client needs.
