@@ -21,7 +21,7 @@ class NavBar extends HTMLElement {
             <div>
                 <a href="https://www.linkedin.com/in/angelina-ferguson-3303712b0" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
                 <a href="https://github.com/Angelina-Ferguson" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github fa-2xl"></i></a>
-                <a id="resume-btn" href="./pdfs/Angelina Ferguson Resume (1).pdf" target="_blank" type="application/pdf" rel="alternate" media="print"> View Resume</a>
+                <a id="resume-btn" href="./pdfs/Angelina Ferguson Resume.pdf" target="_blank" type="application/pdf" rel="alternate" media="print"> View Resume</a>
             </div>
         `;
 

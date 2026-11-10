@@ -14,7 +14,7 @@ class ExperienceSection extends HTMLElement {
             <tr>
                 <td>
                 <h3>Full-Stack Developer and Support Engineer</h3>
-                <h4>3S Design</h4>
+                <h4>3S Design LLC</h4>
                     <h5>July 2025 - Present</h5>
                 </td>
                 <td>
